@@ -3,22 +3,22 @@
 let amigos = []
 
 function adicionarAmigo() {
-    let amigo = document.getElementById('amigo')
+    const amigo = document.getElementById('amigo')
     
     if (amigo.value == '') {
         alert('Por favor, digite o nome de um amigo');
         return;
     }
 
+    if (amigos.length > 10) {
+        alert('Você só pode adicionar no máximo 10 amigos');
+        return;
+    }
+
     amigos.push(amigo.value)
 
-    let lista = document.getElementById('listaAmigos')
-    
-    if (lista.textContent == '') {
-        lista.textContent = amigo.value;
-    } else {
-        lista.textContent = lista.textContent + ', ' + amigo.value;
-    }
+    const lista = document.getElementById('listaAmigos')
+    lista.textContent = amigos.join(', ');
     amigo.value = '';
 }
 
@@ -29,12 +29,7 @@ function sortearAmigo() {
         return;
     }
 
-    if (amigos.length > 10) {
-        alert('Você só pode adicionar 10 amigos');
-        return;
-    }
     const amigoSorteado = sortear(amigos)
-
     const resultado = document.getElementById('resultado')
 
     resultado.innerHTML = `O amigo secreto sorteado é: ${amigoSorteado}`
