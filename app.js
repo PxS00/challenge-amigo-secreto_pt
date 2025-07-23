@@ -17,10 +17,13 @@ function adicionarAmigo() {
     }
 
     amigos.push(nome)
+    atualizarLista() 
+    amigoInput.value = '';
+}
 
+function atualizarLista() {
     const lista = document.getElementById('listaAmigos')
     lista.textContent = amigos.join(', ');
-    amigoInput.value = '';
 }
 
 function sortearAmigo() {
