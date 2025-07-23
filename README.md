@@ -47,7 +47,7 @@ git clone https://github.com/PxS00/challenge-amigo-secreto_pt
 cd challenge-amigo-secreto_pt
 ```
 
-# Abra o arquivo index.html no navegador
+## Abra o arquivo index.html no navegador
 - Digite o nome de um amigo no campo de entrada.
 
 - Clique em "Adicionar".
