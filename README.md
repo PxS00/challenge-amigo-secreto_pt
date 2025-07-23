@@ -1,4 +1,4 @@
-# Challenge - Lógica de Programação: Amigo Secreto
+# Challenge ONE - Lógica de Programação: Amigo Secreto
 
 Este projeto foi desenvolvido como parte do **challenge prático** proposto no curso da Alura:
 
@@ -37,10 +37,10 @@ O principal objetivo deste desafio é **fortalecer as habilidades em lógica de 
 
 ---
 
-## 💻 Como usar
+## 📁 Como executar o projeto
 
-# Clone o repositório
 ```bash
+# Clone o repositório
 git clone https://github.com/PxS00/challenge-amigo-secreto_pt
 
 # Acesse a pasta
