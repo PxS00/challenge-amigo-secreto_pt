@@ -20,6 +20,8 @@ function adicionarAmigo() {
         lista.textContent = lista.textContent + ', ' + amigo.value;
     }
     amigo.value = '';
+
+    
 }
 
 function sortearAmigo(){
@@ -32,8 +34,14 @@ function sortearAmigo(){
         alert('Você só pode adicionar 10 amigos');
         return;
     }
-    if (amigos.length === 0) return null;
-    const indiceSorteado = Math.floor(Math.random() * amigos.length);
+    
 
-    return (lista[indiceSorteado]);
+
+}
+
+function sorteio(){
+    for (let indice = lista.length; indice; indice--) {
+        const indiceAleatorio = Math.floor(Math.random() * indice);
+        return lista[indiceAleatorio];
+    }
 }
