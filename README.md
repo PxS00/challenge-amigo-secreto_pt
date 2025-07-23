@@ -51,7 +51,7 @@ git clone https://github.com/PxS00/challenge-amigo-secreto_pt
 cd challenge-amigo-secreto_pt
 ```
 
-## Abra o arquivo index.html no navegador
+## Instruções de uso
 
 🔗 [Veja o projeto funcionando aqui](https://pxs00.github.io/challenge-amigo-secreto_pt/)
 
