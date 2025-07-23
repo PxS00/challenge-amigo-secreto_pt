@@ -7,6 +7,8 @@ Este projeto foi desenvolvido como parte do **challenge prático** proposto no c
 
 O principal objetivo deste desafio é **fortalecer as habilidades em lógica de programação**, manipulando arrays, validações e interação com a interface HTML através do DOM.
 
+![Badge ONE - Challenge Amigo Secreto](https://cdn1.gnarususercontent.com.br/6/409216/ff043987-239b-4661-bdb1-7f4ca6092c48.png)
+
 ---
 
 ## ✨ Funcionalidades
