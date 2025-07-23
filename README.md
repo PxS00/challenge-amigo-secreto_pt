@@ -7,7 +7,9 @@ Este projeto foi desenvolvido como parte do **challenge prático** proposto no c
 
 O principal objetivo deste desafio é **fortalecer as habilidades em lógica de programação**, manipulando arrays, validações e interação com a interface HTML através do DOM.
 
-![Badge ONE - Challenge Amigo Secreto](https://cdn1.gnarususercontent.com.br/6/409216/ff043987-239b-4661-bdb1-7f4ca6092c48.png)
+<p align="center">
+  <img src="https://cdn1.gnarususercontent.com.br/6/409216/ff043987-239b-4661-bdb1-7f4ca6092c48.png" width="180" alt="Badge Oracle ONE - Amigo Secreto">
+</p>
 
 ---
 
@@ -50,6 +52,9 @@ cd challenge-amigo-secreto_pt
 ```
 
 ## Abra o arquivo index.html no navegador
+
+🔗 [Veja o projeto funcionando aqui](https://pxs00.github.io/challenge-amigo-secreto_pt/)
+
 - Digite o nome de um amigo no campo de entrada.
 
 - Clique em "Adicionar".
