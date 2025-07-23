@@ -21,3 +21,19 @@ function adicionarAmigo() {
     }
     amigo.value = '';
 }
+
+function sortearAmigo(){
+    if (amigos.length < 4) {
+        alert('Você precisa adicionar pelo menos 4 amigos');
+        return;
+    }
+
+    if (amigos.length > 10) {
+        alert('Você só pode adicionar 10 amigos');
+        return;
+    }
+    if (amigos.length === 0) return null;
+    const indiceSorteado = Math.floor(Math.random() * amigos.length);
+
+    return (lista[indiceSorteado]);
+}
