@@ -20,11 +20,10 @@ function adicionarAmigo() {
         lista.textContent = lista.textContent + ', ' + amigo.value;
     }
     amigo.value = '';
-
-    
 }
 
-function sortearAmigo(){
+function sortearAmigo() {
+    
     if (amigos.length < 4) {
         alert('Você precisa adicionar pelo menos 4 amigos');
         return;
@@ -36,12 +35,12 @@ function sortearAmigo(){
     }
     sortear(amigos)
 
+    const resultado = document.getElementById('resultado')
 
+    resultado.innerHTML = `O amigo secreto sorteado é: ${amigos}`
 }
 
-function sortear(lista){
-    for (let indice = lista.length; indice; indice--) {
-        const indiceAleatorio = Math.floor(Math.random() * indice);
-        return lista[indiceAleatorio];
-    }
+function sortear(lista) {
+    const indiceAleatorio = Math.floor(Math.random() * lista.length);
+    return lista[indiceAleatorio];
 }
