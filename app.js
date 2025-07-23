@@ -34,12 +34,12 @@ function sortearAmigo(){
         alert('Você só pode adicionar 10 amigos');
         return;
     }
-    
+    sortear(amigos)
 
 
 }
 
-function sorteio(){
+function sortear(lista){
     for (let indice = lista.length; indice; indice--) {
         const indiceAleatorio = Math.floor(Math.random() * indice);
         return lista[indiceAleatorio];
