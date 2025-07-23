@@ -33,11 +33,11 @@ function sortearAmigo() {
         alert('Você só pode adicionar 10 amigos');
         return;
     }
-    sortear(amigos)
+    const amigoSorteado = sortear(amigos)
 
     const resultado = document.getElementById('resultado')
 
-    resultado.innerHTML = `O amigo secreto sorteado é: ${amigos}`
+    resultado.innerHTML = `O amigo secreto sorteado é: ${amigoSorteado}`
 }
 
 function sortear(lista) {
